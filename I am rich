@@ -1,0 +1,22 @@
+Skeleton Code - 
+This code portrays the use of Scaffold class to make a very simple app 
+Code -
+import 'package';
+void main() => runApp(
+      MaterialApp(
+        home: Scaffold(
+          backgroundColor: Colors.blueGrey.shade200,
+          appBar: AppBar(
+            title: Center(child: Text('Title')),
+            backgroundColor: Colors.blueGrey[900],
+          ),
+          body: Center(
+            child: Image(
+              image: NetworkImage(
+                  'url'),
+            ),
+          ),
+        ),
+      ),
+    );
+
